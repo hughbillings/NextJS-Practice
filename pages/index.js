@@ -7,16 +7,31 @@ import Link from 'next/link'
 export default function Home() {
   return (
     <div >
-      <h1 className={styles.title}> Hello World! </h1>
+      <h1 className={styles.title} > To become a developer, one must .. </h1>
       <p className={styles.text}>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-        Nam sit amet metus massa. Nunc at turpis sed augue congue venenatis eu sed ex.
-        Ut nec ullamcorper lorem, id pharetra felis. Suspendisse potenti. 
-        Phasellus nec dapibus augue. Donec aliquet, massa ac elementum sodales, tortor lorem condimentum risus, eget vulputate nisi est sit amet ipsum. Sed ultricies vel sem at porttitor. Fusce consequat tempus dolor quis placerat. Nullam id porttitor lectus. Quisque lacus dui, blandit vel convallis vel, tempor non nisi. Duis felis sem, scelerisque eu ipsum eu, aliquet imperdiet diam. Praesent maximus, dui at ultrices fermentum, sem erat pulvinar sapien, non sagittis odio nibh vel ipsum. Vestibulum pellentesque ligula id lectus scelerisque interdum. 
-        Integer consequat est vitae metus porttitor dictum.
+      Do the difficult things while they are easy and do the great things while they are small. <br></br>
+      A journey of a thousand miles must begin with a single step.
       </p>
-      <Link href="/ninjas">
-        <a className={styles.btn}> See Ninja Listing </a>
+      <p> Lao Tzu </p>
+
+      <h1>My Story </h1>
+      <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+        Nulla venenatis aliquam mattis. Etiam at luctus felis. Duis ex urna, auctor a libero ut, gravida cursus risus. 
+        Suspendisse non arcu et ligula viverra sollicitudin. Nulla ligula mauris, ultricies sit amet tristique at, molestie sed nunc. 
+        Curabitur lacus nisl, porta ac lobortis ac, pretium eget enim. Nulla tortor felis, bibendum eget ultrices sed, convallis ac ante.
+         Phasellus ut faucibus dui. Integer vestibulum efficitur nisl sed vehicula. 
+      </p>
+
+      <p>
+      Maecenas ac nibh tempus risus semper bibendum. In hendrerit felis at nulla pellentesque luctus. 
+      Donec maximus sit amet augue nec pharetra. Sed tempus placerat finibus. Nunc eleifend, ipsum et lobortis commodo, ex justo vulputate est, 
+      sed ultrices sem tellus at sapien. Praesent a est ipsum. Aliquam sed odio sit amet dui tincidunt pellentesque at a enim. 
+      Vestibulum id tempor lacus. Nam fermentum lacus felis, ut gravida mauris fringilla non.
+      </p>
+
+      <h1>Accomplishments</h1>
+      <Link href="/experience">
+        <a className={styles.btn}> See My Experience </a>
       </Link>
     </div>
   )
